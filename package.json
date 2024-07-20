@@ -1,0 +1,30 @@
+{
+  "name": "tiktok-clone",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@clerk/clerk-expo": "^1.2.7",
+    "@expo/metro-runtime": "~3.2.1",
+    "@supabase/supabase-js": "^2.44.4",
+    "expo": "~51.0.21",
+    "expo-av": "~14.0.6",
+    "expo-font": "~12.0.9",
+    "expo-splash-screen": "~0.27.5",
+    "expo-status-bar": "~1.12.1",
+    "expo-web-browser": "~13.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.3",
+    "react-native-web": "~0.19.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
